@@ -9,6 +9,10 @@ const HomeButtons = () => {
         display: flex;
         align-content: center;
         justify-content: space-evenly;
+        border-top: 1px solid #fff;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     `;
 
     const LinkButton = styled(Link)`
@@ -16,7 +20,7 @@ const HomeButtons = () => {
         text-decoration: none;
         font-size: 1.6vmax;
         text-align: center;
-        border: 1px solid #aaa;
+        
         
         padding: 5px 10px;
         margin-right: 10px;

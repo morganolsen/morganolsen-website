@@ -1,8 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import BackButton from './BackButton';
 import Background from './Background';
+import Navigation from './Navigation';
+import PortfolioList from './PortfolioList';
 
-const Portfolio = () => {
+const Portfolio = (props) => {
 
     const WholePage = styled.div`
         display: flex;
@@ -15,17 +18,13 @@ const Portfolio = () => {
         width: 95%;
         max-width: 1100px;
         display: flex;
-        align-items: center;
+        align-items: stretch;
         justify-content: space-evenly;
         flex-flow: row wrap;
-    `;
 
-    const BoxTest = styled.div`
-        background-color: rgba(0,0,0,0.8);
-        color: #fff;
-        padding: 20px;
-        margin: 10px;
-        flex-grow: 1;
+        @media only screen and (max-width: 1300px) {
+            margin-top: 60px;
+        }
     `;
 
     const Header = styled.div`
@@ -43,37 +42,16 @@ const Portfolio = () => {
 
     return (
         <>
-            <Background />
+            <Background url="/portfolio_bg.PNG" />
+            <BackButton />
+            <Navigation />
             <WholePage>
                 <Container>
                     <Header>
-                        <H1>Portfolio</H1>
-                        <p>Welcome to my portfolio. You may click the different projects in order to see more information about them.</p>
+                        <H1>Projects</H1>
+                        <p>Welcome to my projects page. These are projects that I have participated in or created on my own. Click a project to get more information.</p>
                     </Header>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-                    <BoxTest>Hello world.</BoxTest>
-
+                    <PortfolioList history={props.history} />
                 </Container>
             </WholePage>
         </>

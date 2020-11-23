@@ -1,0 +1,43 @@
+[
+    {
+        "title": "My Test Project that is very very very very long",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus maximus ut ante ac suscipit. Nulla lacinia sapien eget mollis accumsan. Donec sed dolor nec odio posuere euismod sit amet a velit. Donec et semper nulla, id mollis dui. Duis ultricies mi sed vehicula vulputate. Suspendisse quis nibh est. Sed tincidunt, ipsum sed convallis tincidunt, nisi odio maximus nunc, sit amet sodales erat lacus et lacus.",
+        "thumbnail": "oop-game-show-1.PNG",
+        "live_link": "test",
+        "github_link": "test",
+        "tags": ["JavaScript", "HTML", "CSS"],
+        "pictures": ["oop-game-show-1.PNG", "oop-game-show-main.png", "quote-generator-2.PNG"]
+    },
+    {
+        "title": "My Test Project",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus maximus ut ante ac suscipit. Nulla lacinia sapien eget mollis accumsan. Donec sed dolor nec odio posuere euismod sit amet a velit. Donec et semper nulla, id mollis dui. Duis ultricies mi sed vehicula vulputate. Suspendisse quis nibh est. Sed tincidunt, ipsum sed convallis tincidunt, nisi odio maximus nunc, sit amet sodales erat lacus et lacus.",
+        "thumbnail": "quote-generator-2.PNG",
+        "live_link": "",
+        "github_link": "",
+        "pictures": []
+    },
+    {
+        "title": "My Test Project",
+        "description": "My test description",
+        "thumbnail": "oop-game-show-1.PNG",
+        "live_link": "",
+        "github_link": "",
+        "pictures": []
+    },
+    {
+        "title": "My Test Project",
+        "description": "My test description",
+        "thumbnail": "oop-game-show-main.png",
+        "live_link": "",
+        "github_link": "",
+        "pictures": []
+    },
+    {
+        "title": "My Test Project",
+        "description": "My test description",
+        "thumbnail": "oop-game-show-main.png",
+        "live_link": "",
+        "github_link": "",
+        "pictures": []
+    }
+]
