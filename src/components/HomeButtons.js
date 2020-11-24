@@ -30,7 +30,7 @@ const HomeButtons = () => {
 
     return (
         <ButtonContainer>
-            <LinkButton to="/portfolio">Projects</LinkButton> <LinkButton to="/about">About</LinkButton> <LinkButton to="/">Contact</LinkButton>
+            <LinkButton to="/portfolio">Projects</LinkButton> <LinkButton to="/about">About</LinkButton> <LinkButton to="/contact">Contact</LinkButton>
         </ButtonContainer>
     );
 };

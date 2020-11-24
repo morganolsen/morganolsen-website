@@ -47,7 +47,7 @@ const Navigation = () => {
                     About
                 </NavItem>
             </NavLink>
-            <NavLink exact to="/">
+            <NavLink exact to="/contact">
                 <NavItem>
                     Contact
                 </NavItem>

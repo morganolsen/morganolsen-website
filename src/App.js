@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import PortfolioItem from './components/PortfolioItem';
 import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/portfolio/:id" component={PortfolioItem} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
         </Switch>
       </BrowserRouter>
     </>
