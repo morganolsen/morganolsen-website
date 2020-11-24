@@ -63,7 +63,7 @@ const PortfolioItem = (props) => {
 
     let pictures = "";
     if(portfolio.pictures){
-        pictures = portfolio.pictures.map((picture, index) => <Image src={"/" + picture} key={index} />);
+        pictures = portfolio.pictures.map((picture, index) => <Image src={"/projects/" + portfolio.id + "/" + picture} key={index} />);
     }
 
     return (

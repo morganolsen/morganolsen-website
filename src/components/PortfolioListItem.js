@@ -6,7 +6,7 @@ const PortfolioListItem = (props) => {
 
     let background = "rgb(0,0,0)";
     if(props.thumbnail){
-        background = `url('/${props.thumbnail}')`;
+        background = `url('/projects/${props.id}/${props.thumbnail}')`;
     }
 
     let tags = "";
@@ -41,6 +41,8 @@ const PortfolioListItem = (props) => {
         padding: 10px;
         position: absolute;
         bottom: 0;
+        background-color: rgba(0,0,0,0.6);
+        width: 100%;
     `;
 
     function clickItem(){

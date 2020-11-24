@@ -3,8 +3,8 @@ import portfolio from '../portfolio.json';
 import PortfolioListItem from './PortfolioListItem';
 
 const PortfolioList = (props) => {
-    
-    const portfolioItems = portfolio.map((item, index) => <PortfolioListItem title={item.title} desc={item.description} thumbnail={item.thumbnail} tags={item.tags} key={index} id={index} history={props.history} />);
+    const portfolioArray = portfolio.slice(0).reverse();
+    const portfolioItems = portfolioArray.map((item, index) => <PortfolioListItem title={item.title} desc={item.description} thumbnail={item.thumbnail} tags={item.tags} key={index} id={item.id} history={props.history} />);
     
     return (
         <>

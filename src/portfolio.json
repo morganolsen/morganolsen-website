@@ -1,43 +1,102 @@
 [
     {
-        "title": "My Test Project that is very very very very long",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus maximus ut ante ac suscipit. Nulla lacinia sapien eget mollis accumsan. Donec sed dolor nec odio posuere euismod sit amet a velit. Donec et semper nulla, id mollis dui. Duis ultricies mi sed vehicula vulputate. Suspendisse quis nibh est. Sed tincidunt, ipsum sed convallis tincidunt, nisi odio maximus nunc, sit amet sodales erat lacus et lacus.",
-        "thumbnail": "oop-game-show-1.PNG",
-        "live_link": "test",
-        "github_link": "test",
+        "id": 0,
+        "title": "A random quote generator",
+        "description": "This is the first project I did as a part of my Techdegree, it's a simple JavaScript application that displays a random quote that changes at a given interval or when you press the show new quote button.",
+        "thumbnail": "thumbnail.PNG",
+        "live_link": "https://morganolsen.github.io/a-random-quote-generator/",
+        "github_link": "https://github.com/morganolsen/a-random-quote-generator/",
         "tags": ["JavaScript", "HTML", "CSS"],
-        "pictures": ["oop-game-show-1.PNG", "oop-game-show-main.png", "quote-generator-2.PNG"]
+        "pictures": ["1.png", "2.PNG"]
     },
     {
-        "title": "My Test Project",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus maximus ut ante ac suscipit. Nulla lacinia sapien eget mollis accumsan. Donec sed dolor nec odio posuere euismod sit amet a velit. Donec et semper nulla, id mollis dui. Duis ultricies mi sed vehicula vulputate. Suspendisse quis nibh est. Sed tincidunt, ipsum sed convallis tincidunt, nisi odio maximus nunc, sit amet sodales erat lacus et lacus.",
-        "thumbnail": "quote-generator-2.PNG",
+        "id": 1,
+        "title": "Data pagination and filtering",
+        "description": "This project was originally done as a project for my Techdegree. This application parses an array of objects and displays them in a nice format as well as adds pagination and dynamic search.",
+        "thumbnail": "thumbnail.PNG",
+        "live_link": "https://morganolsen.github.io/data-pagination-and-filtering/",
+        "github_link": "https://github.com/morganolsen/data-pagination-and-filtering/",
+        "tags": ["JavaScript", "HTML", "CSS"],
+        "pictures": ["1.png", "2.PNG"]
+    },
+    {
+        "id": 2,
+        "title": "Interactive form",
+        "description": "This project was originally done as a project for my Techdegree. This application is an interactive form that validates input dynamically and alters the form as choices are selected.",
+        "thumbnail": "thumbnail.PNG",
+        "live_link": "https://morganolsen.github.io/interactive-form/",
+        "github_link": "https://github.com/morganolsen/interactive-form",
+        "tags": ["JavaScript", "HTML", "CSS"],
+        "pictures": ["1.png", "2.PNG"]
+    },
+    {
+        "id": 3,
+        "title": "OOP Game Show App",
+        "description": "This project was originally done as a project for my Techdegree. This application is a fun guessing game based on object oriented javascript that presents a random phrase for the player to guess.",
+        "thumbnail": "thumbnail.PNG",
+        "live_link": "https://morganolsen.github.io/oop-game-show-app/",
+        "github_link": "https://github.com/morganolsen/oop-game-show-app",
+        "tags": ["JavaScript", "OOP", "HTML", "CSS"],
+        "pictures": ["1.png", "2.PNG", "3.PNG"]
+    },
+    {
+        "id": 4,
+        "title": "Public API Requests",
+        "description": "This project was originally done as a project for my Techdegree. This application fetches 12 random users from the random users API randomuser.me, parses the JSON and displays it nicely. There's also a dynamic search feature.",
+        "thumbnail": "thumbnail.PNG",
+        "live_link": "https://morganolsen.github.io/public-api-requests/",
+        "github_link": "https://github.com/morganolsen/public-api-requests",
+        "tags": ["JavaScript", "API", "HTML", "CSS"],
+        "pictures": ["1.png", "2.PNG"]
+    },
+    {
+        "id": 5,
+        "title": "Static Node.js and Express site",
+        "description": "This project was originally done as a project for my Techdegree. This is a static website running through Node.js, and the project was intended as a portfolio website, although I never used this publicly.",
+        "thumbnail": "thumbnail.PNG",
         "live_link": "",
-        "github_link": "",
+        "github_link": "https://github.com/morganolsen/static-node-and-express-site",
+        "tags": ["JavaScript", "Node.JS", "Express", "HTML", "CSS"],
+        "pictures": ["1.png", "2.PNG"]
+    },
+    {
+        "id": 6,
+        "title": "React Gallery App",
+        "description": "This project was originally done as a project for my Techdegree. This was one of the first projects I made with React.js, and it features a photo gallery that fetches photos from the Flickr API.",
+        "thumbnail": "thumbnail.PNG",
+        "live_link": "",
+        "github_link": "https://github.com/morganolsen/react-gallery-app",
+        "tags": ["React.js", "JavaScript", "HTML", "CSS"],
+        "pictures": ["1.png", "2.PNG"]
+    },
+    {
+        "id": 7,
+        "title": "SQL Library Manager",
+        "description": "This project was originally done as a project for my Techdegree. This application uses express with jade/pug as the view engine and sequelize as the ORM to update a database for a library.",
+        "thumbnail": "thumbnail.PNG",
+        "live_link": "",
+        "github_link": "https://github.com/morganolsen/sql-library-manager",
+        "tags": ["Node.js", "Sequelize", "SQL", "JavaScript", "HTML", "CSS"],
+        "pictures": ["1.png", "2.PNG", "3.PNG"]
+    },
+    {
+        "id": 8,
+        "title": "REST API in Node.js",
+        "description": "This project was originally done as a project for my Techdegree. This application is a REST API that uses sequelize to connect to a database. There are no pictures for this project as it is an API, and all it returns is JSON, but another project listed on this page is a client for this API.",
+        "thumbnail": "thumbnail.PNG",
+        "live_link": "",
+        "github_link": "https://github.com/morganolsen/express-rest-api",
+        "tags": ["Node.js", "Sequelize", "SQL", "API", "JavaScript"],
         "pictures": []
     },
     {
-        "title": "My Test Project",
-        "description": "My test description",
-        "thumbnail": "oop-game-show-1.PNG",
+        "id": 9,
+        "title": "Fullstack School Database App",
+        "description": "This project was originally done as a project for my Techdegree. This application features a React client that connects to a REST API that uses sequelize to connect to a database.",
+        "thumbnail": "thumbnail.PNG",
         "live_link": "",
-        "github_link": "",
-        "pictures": []
-    },
-    {
-        "title": "My Test Project",
-        "description": "My test description",
-        "thumbnail": "",
-        "live_link": "",
-        "github_link": "",
-        "pictures": []
-    },
-    {
-        "title": "My Test Project",
-        "description": "My test description",
-        "thumbnail": "oop-game-show-main.png",
-        "live_link": "",
-        "github_link": "",
-        "pictures": []
+        "github_link": "https://github.com/morganolsen/fullstack-school-database-app",
+        "tags": ["React", "JSX", "Node.js", "Sequelize", "SQL", "API"],
+        "pictures": ["1.PNG", "2.PNG", "3.PNG"]
     }
 ]
