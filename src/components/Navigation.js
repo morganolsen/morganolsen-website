@@ -42,9 +42,9 @@ const Navigation = () => {
                     Projects
                 </NavItem>
             </NavLink>
-            <NavLink exact to="/">
+            <NavLink exact to="/about">
                 <NavItem>
-                    Resume
+                    About
                 </NavItem>
             </NavLink>
             <NavLink exact to="/">

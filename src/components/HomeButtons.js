@@ -18,7 +18,7 @@ const HomeButtons = () => {
     const LinkButton = styled(Link)`
         color: #fff;
         text-decoration: none;
-        font-size: 1.6vmax;
+        font-size: 2vmax;
         text-align: center;
         
         
@@ -30,7 +30,7 @@ const HomeButtons = () => {
 
     return (
         <ButtonContainer>
-            <LinkButton to="/portfolio">Portfolio</LinkButton> <LinkButton to="/">Resume</LinkButton> <LinkButton to="/">Contact</LinkButton>
+            <LinkButton to="/portfolio">Projects</LinkButton> <LinkButton to="/about">About</LinkButton> <LinkButton to="/">Contact</LinkButton>
         </ButtonContainer>
     );
 };

@@ -2,8 +2,9 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
-const BackButton = () => {
+const BackButton = (props) => {
 
+    const to = props.to || "/";
     const BackButton = styled(Link)`
         position: fixed;
         top: 20px;
@@ -15,7 +16,7 @@ const BackButton = () => {
     `;
 
     return (
-        <BackButton to="/">
+        <BackButton to={to}>
             {"<< Back"}
         </BackButton>
     );

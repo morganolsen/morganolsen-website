@@ -62,16 +62,12 @@ const WordCloudItem = (props) => {
             if((x + elementWidth) >= window.innerWidth){
                 // Hit right wall. Straight right is 0.
                 convertAngle("right");
-                console.log("HIT RIGHT WALL!");
-                console.log(`x: ${x}, window.innerWidth: ${window.innerWidth}`);
             }else if(x <= 0){
                 // Hit left wall.
                 convertAngle("left");
             }else if((y + elementHeight) >= window.innerHeight){
                 // hit bottom wall. straight down is 270
                 convertAngle("bottom");
-                console.log("HIT BOTTOM WALL!");
-                console.log(`y: ${y}, window.innerHeight: ${window.innerHeight}`);
             }else if(y <= 0){
                 // hit top.
                 convertAngle("top");

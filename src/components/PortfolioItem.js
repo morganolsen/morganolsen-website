@@ -39,11 +39,11 @@ const PortfolioItem = (props) => {
     const Content = styled.div`
         background-color: rgba(0,0,0,0.8);
         padding: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         flex-grow: 2;
         max-width: 700px;
         &:first-child{
-            margin-right: 10px;
+            margin-right: 20px;
         }
     `;
 
@@ -57,7 +57,7 @@ const PortfolioItem = (props) => {
     `;
 
     const Image = styled.img`
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         width: 100%;
     `;
 
@@ -69,7 +69,7 @@ const PortfolioItem = (props) => {
     return (
         <>
             <Background url="/portfolio_bg.PNG" />
-            <BackButton />
+            <BackButton to="/portfolio" />
             <Navigation />
             <WholePage>
                 <Container>
