@@ -7,6 +7,8 @@ const PortfolioListItem = (props) => {
     let background = "rgb(0,0,0)";
     if(props.thumbnail){
         background = `url('/projects/${props.id}/${props.thumbnail}')`;
+    }else{
+        background = `url('/portfolio_bg.PNG')`;
     }
 
     let tags = "";

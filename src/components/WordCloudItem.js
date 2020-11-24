@@ -9,7 +9,7 @@ const WordCloudItem = (props) => {
     const Element = styled.div`
         position: fixed;
         font-size: 20px;
-        color: rgba(255, 255, 255, 0.4);
+        color: rgba(255, 255, 255, 0.25);
     `;
 
     useEffect(() => {  
@@ -25,7 +25,10 @@ const WordCloudItem = (props) => {
         let y = startY;
         let x = startX;
         let angle = startAngle;
-        const velocity = Math.ceil(Math.random() + 0.5);
+        let velocity = Math.ceil(Math.random() / 2);
+        if(velocity > 0.4){
+            velocity = 0.4;
+        }
         function frame(){
             function convertAngle(wallHit){
                 if(angle < 90){
@@ -90,7 +93,7 @@ const WordCloudItem = (props) => {
     }, [])
     
     return (
-        <Element id={elementId}>
+        <Element aria-hidden="true" id={elementId}>
             {props.name}
         </Element>
     );

@@ -5,10 +5,11 @@ import Portfolio from './components/Portfolio';
 import PortfolioItem from './components/PortfolioItem';
 import About from './components/About';
 import Contact from './components/Contact';
+import HttpsRedirect from 'react-https-redirect';
 
 function App() {
   return (
-    <>
+    <HttpsRedirect>
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
@@ -18,7 +19,7 @@ function App() {
           <Route path="/contact" component={Contact} />
         </Switch>
       </BrowserRouter>
-    </>
+    </HttpsRedirect>
   );
 }
 

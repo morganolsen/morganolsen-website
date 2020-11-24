@@ -127,7 +127,7 @@ const Contact = () => {
 
     return (
         <>
-            <Background url="/about_bg.jpg" />
+            <Background url="/contact_bg.jpg" />
             <BackButton />
             <Navigation />
             <WholePage>

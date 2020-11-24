@@ -6,7 +6,7 @@ import Background from './Background';
 import Navigation from './Navigation';
 
 const PortfolioItem = (props) => {
-    console.log(props);
+    
     const id = props.match.params.id;
     const portfolio = portfolios[id];
 
